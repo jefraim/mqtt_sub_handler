@@ -42,7 +42,7 @@ def test_action_command_1():
 
     result = action.do('{"val0":"yes"}')
 
-    assert result == "b'yes\\r\\n'"
+    assert result == "b'yes\\n'"
 
 
 def test_action_command_with_error():
